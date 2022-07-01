@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins';
+    
+}
+
+.navbar-brand {
+    color: rgb(191, 28, 255);
+    font-weight: bold;
+}
+
+.hero {
+    //height: 50vh;
+    padding: 3em;
+}
+
+.quiz {
+    padding-top: 3em;
+
+    label {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+
+.res{
+    font-weight: bold;
+}

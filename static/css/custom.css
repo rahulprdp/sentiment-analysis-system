@@ -1,0 +1,26 @@
+body {
+  font-family: 'Poppins';
+}
+
+.navbar-brand {
+  color: #bf1cff;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 3em;
+}
+
+.quiz {
+  padding-top: 3em;
+}
+
+.quiz label {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.res {
+  font-weight: bold;
+}
+/*# sourceMappingURL=custom.css.map */
