@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<body style="text-align:center">
+    <h1>GeeksforGeeks</h1>
+    <p>COUNTS</p>
+    <div id="counter">
+        10
+    </div>
+  
+    <script>
+        let counts=setInterval(updated);
+ 
+        var upto = document.getElementById("counter");
+        var end = upto;
+        upto.innerHTML=0.00;
+
+        function updated(){
+            var count= document.getElementById("counter");
+            upto.innerHTML=++0.01;
+            if(upto===end)
+            {
+                clearInterval(counts);
+            }
+        }
+    </script>
+</body>
+</html>
